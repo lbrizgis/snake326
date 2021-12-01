@@ -17,9 +17,9 @@ private:
 	sf::Text m_retryButton;
 	sf::Text m_exitButton;
 
-	sf::Music m_gameOverMusic;
 	sf::SoundBuffer m_selectBuffer;
 	sf::Sound m_select;
+	sf::Music m_gameOverMusic;
 
 	bool m_isRetryButtonSelected;
 	bool m_isRetryButtonPressed;
